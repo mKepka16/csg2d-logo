@@ -1,0 +1,8 @@
+{
+    errdata = "In file included from src/csg2d/complex_shape.cpp:5:\
+\27[1msrc/csg2d/complex_shape.h:17:26: \27[0m\27[0;1;35mwarning: \27[0m\27[1mprivate field 'operation_' is not used [-Wunused-private-field]\27[0m\
+        const OPERATION& operation_;\
+\27[0;1;32m                         ^\
+\27[0m1 warning generated.\
+"
+}

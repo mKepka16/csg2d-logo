@@ -1,0 +1,71 @@
+{
+    errdata = "\27[1msrc/csg2d/functions.cpp:61:1: \27[0m\27[0;1;35mwarning: \27[0m\27[1mnon-void function does not return a value [-Wreturn-type]\27[0m\
+}\
+\27[0;1;32m^\
+\27[0mIn file included from src/csg2d/functions.cpp:1:\
+In file included from src/csg2d/functions.h:2:\
+In file included from src/csg2d/shape.h:2:\
+In file included from src/csg2d/libincludes.h:1:\
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:43:\
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:222:\
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale:15:\
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:22:\
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h:15:\
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h:14:\
+\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:69:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mdestructor called on non-final 'CSG2D::Rectangle' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]\27[0m\
+    __loc->~_Tp();\
+\27[0;1;32m    ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:104:10: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::__destroy_at<CSG2D::Rectangle, 0>' requested here\27[0m\
+    std::__destroy_at(__loc);\
+\27[0;1;32m         ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h:323:14: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::destroy_at<CSG2D::Rectangle, 0>' requested here\27[0m\
+        std::destroy_at(__p);\
+\27[0;1;32m             ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:321:41: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::allocator_traits<std::allocator<CSG2D::Rectangle>>::destroy<CSG2D::Rectangle, void, void>' requested here\27[0m\
+            allocator_traits<_TpAlloc>::destroy(__tmp, __get_elem());\
+\27[0;1;32m                                        ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:290:14: \27[0m\27[0;1;30mnote: \27[0min instantiation of member function 'std::__shared_ptr_emplace<CSG2D::Rectangle, std::allocator<CSG2D::Rectangle>>::__on_zero_shared' requested here\27[0m\
+    explicit __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)\
+\27[0;1;32m             ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:1023:53: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::__shared_ptr_emplace<CSG2D::Rectangle, std::allocator<CSG2D::Rectangle>>::__shared_ptr_emplace<float, float, sf::Vector2<float> &, int>' requested here\27[0m\
+    ::new ((void*)std::addressof(*__guard.__get())) _ControlBlock(__a, std::forward<_Args>(__args)...);\
+\27[0;1;32m                                                    ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:1032:17: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::allocate_shared<CSG2D::Rectangle, std::allocator<CSG2D::Rectangle>, float, float, sf::Vector2<float> &, int, void>' requested here\27[0m\
+    return std::allocate_shared<_Tp>(allocator<_Tp>(), std::forward<_Args>(__args)...);\
+\27[0;1;32m                ^\
+\27[0m\27[1msrc/csg2d/functions.cpp:44:23: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::make_shared<CSG2D::Rectangle, float, float, sf::Vector2<float> &, int, void>' requested here\27[0m\
+ auto mainRect = std::make_shared<CSG2D::Rectangle>(100.f, 100.f, mLetterCord, 0);\
+\27[0;1;32m                      ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:69:13: \27[0m\27[0;1;30mnote: \27[0mqualify call to silence this warning\27[0m\
+    __loc->~_Tp();\
+\27[0;1;32m            ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:69:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mdestructor called on non-final 'CSG2D::ComplexShape' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]\27[0m\
+    __loc->~_Tp();\
+\27[0;1;32m    ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:104:10: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::__destroy_at<CSG2D::ComplexShape, 0>' requested here\27[0m\
+    std::__destroy_at(__loc);\
+\27[0;1;32m         ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h:323:14: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::destroy_at<CSG2D::ComplexShape, 0>' requested here\27[0m\
+        std::destroy_at(__p);\
+\27[0;1;32m             ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:321:41: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::allocator_traits<std::allocator<CSG2D::ComplexShape>>::destroy<CSG2D::ComplexShape, void, void>' requested here\27[0m\
+            allocator_traits<_TpAlloc>::destroy(__tmp, __get_elem());\
+\27[0;1;32m                                        ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:290:14: \27[0m\27[0;1;30mnote: \27[0min instantiation of member function 'std::__shared_ptr_emplace<CSG2D::ComplexShape, std::allocator<CSG2D::ComplexShape>>::__on_zero_shared' requested here\27[0m\
+    explicit __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)\
+\27[0;1;32m             ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:1023:53: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::__shared_ptr_emplace<CSG2D::ComplexShape, std::allocator<CSG2D::ComplexShape>>::__shared_ptr_emplace<std::shared_ptr<CSG2D::Rectangle> &, std::shared_ptr<CSG2D::Rectangle> &, CSG2D::OPERATION>' requested here\27[0m\
+    ::new ((void*)std::addressof(*__guard.__get())) _ControlBlock(__a, std::forward<_Args>(__args)...);\
+\27[0;1;32m                                                    ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:1032:17: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::allocate_shared<CSG2D::ComplexShape, std::allocator<CSG2D::ComplexShape>, std::shared_ptr<CSG2D::Rectangle> &, std::shared_ptr<CSG2D::Rectangle> &, CSG2D::OPERATION, void>' requested here\27[0m\
+    return std::allocate_shared<_Tp>(allocator<_Tp>(), std::forward<_Args>(__args)...);\
+\27[0;1;32m                ^\
+\27[0m\27[1msrc/csg2d/functions.cpp:46:33: \27[0m\27[0;1;30mnote: \27[0min instantiation of function template specialization 'std::make_shared<CSG2D::ComplexShape, std::shared_ptr<CSG2D::Rectangle> &, std::shared_ptr<CSG2D::Rectangle> &, CSG2D::OPERATION, void>' requested here\27[0m\
+ auto mainWithBottomRect = std::make_shared<CSG2D::ComplexShape>(mainRect, bottomRect, CSG2D::OPERATION::DIFFERENCE);\
+\27[0;1;32m                                ^\
+\27[0m\27[1m/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h:69:13: \27[0m\27[0;1;30mnote: \27[0mqualify call to silence this warning\27[0m\
+    __loc->~_Tp();\
+\27[0;1;32m            ^\
+\27[0m3 warnings generated.\
+"
+}

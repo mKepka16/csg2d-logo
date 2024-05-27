@@ -1,0 +1,6 @@
+{
+    packages = {
+        "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098",
+        "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72"
+    }
+}

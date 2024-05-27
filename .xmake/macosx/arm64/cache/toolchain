@@ -1,0 +1,52 @@
+{
+    tool_target_csg2d_macosx_arm64_cxx = {
+        program = "/usr/bin/clang",
+        toolchain_info = {
+            cachekey = "clang_arch_arm64_plat_macosx",
+            plat = "macosx",
+            arch = "arm64",
+            name = "clang"
+        },
+        toolname = "clang"
+    },
+    xcode_arch_arm64_plat_macosx = {
+        __global = true,
+        xcode_sysroot = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk",
+        arch = "arm64",
+        xcode = "/Applications/Xcode.app",
+        bindir = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+        plat = "macosx",
+        xcode_sdkver = "14.4",
+        target_minver = "14.4"
+    },
+    tool_package_macosx_arm64_cc = {
+        program = "/usr/bin/clang",
+        toolchain_info = {
+            cachekey = "clang_arch_arm64_plat_macosx",
+            plat = "macosx",
+            arch = "arm64",
+            name = "clang"
+        },
+        toolname = "clang"
+    },
+    tool_package_macosx_arm64_ld = {
+        program = "/usr/bin/clang++",
+        toolchain_info = {
+            cachekey = "clang_arch_arm64_plat_macosx",
+            plat = "macosx",
+            arch = "arm64",
+            name = "clang"
+        },
+        toolname = "clangxx"
+    },
+    tool_target_csg2d_macosx_arm64_ld = {
+        program = "/usr/bin/clang++",
+        toolchain_info = {
+            cachekey = "clang_arch_arm64_plat_macosx",
+            plat = "macosx",
+            arch = "arm64",
+            name = "clang"
+        },
+        toolname = "clangxx"
+    }
+}

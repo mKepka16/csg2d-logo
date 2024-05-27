@@ -1,0 +1,16 @@
+[
+{
+  "directory": "/Users/mkepka/Code/Studia Repos/pp2/vscode_csg",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++2b", "-Isrc", "-DMACOS", "-DAL_LIBTYPE_STATIC", "-framework", "Cocoa", "-framework", "CoreAudio", "-framework", "CoreFoundation", "-framework", "AudioToolbox", "-isystem", "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/include", "-isystem", "/opt/homebrew/opt/freetype/include/freetype2", "-isystem", "/opt/homebrew/opt/libpng/include/libpng16", "-isystem", "/opt/homebrew/Cellar/flac/1.4.3/include", "-isystem", "/opt/homebrew/Cellar/libogg/1.3.5/include", "-isystem", "/opt/homebrew/Cellar/libvorbis/1.3.7/include", "-isystem", "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/include", "-Wall", "-DNDEBUG", "-o", "build/.objs/csg2d/macosx/arm64/release/src/csg2d/shape.cpp.o", "src/csg2d/shape.cpp"],
+  "file": "src/csg2d/shape.cpp"
+},
+{
+  "directory": "/Users/mkepka/Code/Studia Repos/pp2/vscode_csg",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++2b", "-Isrc", "-DMACOS", "-DAL_LIBTYPE_STATIC", "-framework", "Cocoa", "-framework", "CoreAudio", "-framework", "CoreFoundation", "-framework", "AudioToolbox", "-isystem", "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/include", "-isystem", "/opt/homebrew/opt/freetype/include/freetype2", "-isystem", "/opt/homebrew/opt/libpng/include/libpng16", "-isystem", "/opt/homebrew/Cellar/flac/1.4.3/include", "-isystem", "/opt/homebrew/Cellar/libogg/1.3.5/include", "-isystem", "/opt/homebrew/Cellar/libvorbis/1.3.7/include", "-isystem", "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/include", "-Wall", "-DNDEBUG", "-o", "build/.objs/csg2d/macosx/arm64/release/src/csg2d/functions.cpp.o", "src/csg2d/functions.cpp"],
+  "file": "src/csg2d/functions.cpp"
+},
+{
+  "directory": "/Users/mkepka/Code/Studia Repos/pp2/vscode_csg",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++2b", "-Isrc", "-DMACOS", "-DAL_LIBTYPE_STATIC", "-framework", "Cocoa", "-framework", "CoreAudio", "-framework", "CoreFoundation", "-framework", "AudioToolbox", "-isystem", "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/include", "-isystem", "/opt/homebrew/opt/freetype/include/freetype2", "-isystem", "/opt/homebrew/opt/libpng/include/libpng16", "-isystem", "/opt/homebrew/Cellar/flac/1.4.3/include", "-isystem", "/opt/homebrew/Cellar/libogg/1.3.5/include", "-isystem", "/opt/homebrew/Cellar/libvorbis/1.3.7/include", "-isystem", "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/include", "-Wall", "-DNDEBUG", "-o", "build/.objs/csg2d/macosx/arm64/release/src/csg2d/main.cpp.o", "src/csg2d/main.cpp"],
+  "file": "src/csg2d/main.cpp"
+}]

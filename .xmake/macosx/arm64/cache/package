@@ -1,0 +1,166 @@
+{
+    sfml = {
+        installdir = "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72",
+        links = {
+            "sfml-graphics",
+            "sfml-window",
+            "sfml-audio",
+            "sfml-network",
+            "sfml-system",
+            "freetype",
+            "z",
+            "FLAC",
+            "vorbisfile",
+            "vorbisenc",
+            "vorbis",
+            "ogg",
+            "openal"
+        },
+        __requirestr = "sfml >=2.6.0",
+        components = {
+            audio = {
+                links = "sfml-audio"
+            },
+            __base = {
+                linkdirs = {
+                    "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib",
+                    "/opt/homebrew/opt/freetype/lib",
+                    "/opt/homebrew/Cellar/flac/1.4.3/lib",
+                    "/opt/homebrew/Cellar/libvorbis/1.3.7/lib",
+                    "/opt/homebrew/Cellar/libogg/1.3.5/lib",
+                    "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/lib"
+                },
+                defines = "AL_LIBTYPE_STATIC",
+                links = {
+                    "freetype",
+                    "z",
+                    "FLAC",
+                    "vorbisfile",
+                    "vorbisenc",
+                    "vorbis",
+                    "ogg",
+                    "openal"
+                },
+                sysincludedirs = {
+                    "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/include",
+                    "/opt/homebrew/opt/freetype/include/freetype2",
+                    "/opt/homebrew/opt/libpng/include/libpng16",
+                    "/opt/homebrew/Cellar/flac/1.4.3/include",
+                    "/opt/homebrew/Cellar/libogg/1.3.5/include",
+                    "/opt/homebrew/Cellar/libvorbis/1.3.7/include",
+                    "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/include"
+                },
+                frameworks = {
+                    "CoreAudio",
+                    "CoreFoundation",
+                    "AudioToolbox"
+                }
+            },
+            system = {
+                links = "sfml-system"
+            },
+            window = {
+                links = "sfml-window"
+            },
+            graphics = {
+                links = "sfml-graphics"
+            },
+            network = {
+                links = "sfml-network"
+            }
+        },
+        license = "zlib",
+        shared = true,
+        linkdirs = {
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib",
+            "/opt/homebrew/opt/freetype/lib",
+            "/opt/homebrew/Cellar/flac/1.4.3/lib",
+            "/opt/homebrew/Cellar/libvorbis/1.3.7/lib",
+            "/opt/homebrew/Cellar/libogg/1.3.5/lib",
+            "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/lib"
+        },
+        libfiles = {
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-graphics.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-window.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-audio.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-network.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-system.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-network.2.6.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-audio.2.6.0.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-graphics.2.6.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-network.2.6.0.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-window.2.6.0.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-system.2.6.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-window.2.6.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-graphics.2.6.0.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-system.2.6.0.dylib",
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib/libsfml-audio.2.6.dylib",
+            "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/lib/libopenal.a"
+        },
+        __enabled = true,
+        __requireconfs = {
+            alias = "sfml",
+            configs = {
+                shared = true
+            },
+            system = false
+        },
+        sysincludedirs = {
+            "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/include",
+            "/opt/homebrew/opt/freetype/include/freetype2",
+            "/opt/homebrew/opt/libpng/include/libpng16",
+            "/opt/homebrew/Cellar/flac/1.4.3/include",
+            "/opt/homebrew/Cellar/libogg/1.3.5/include",
+            "/opt/homebrew/Cellar/libvorbis/1.3.7/include",
+            "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/include"
+        },
+        __components_orderlist = {
+            "graphics",
+            "window",
+            "audio",
+            "network",
+            "system"
+        },
+        defines = "AL_LIBTYPE_STATIC",
+        frameworks = {
+            "CoreAudio",
+            "CoreFoundation",
+            "AudioToolbox"
+        },
+        envs = {
+            PATH = {
+                "/Users/mkepka/.xmake/packages/c/cmake/3.29.2/c83e9763d2e54cf3bc634700a848c33b/bin"
+            },
+            LD_LIBRARY_PATH = {
+                "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib",
+                "/Users/mkepka/.xmake/packages/c/cmake/3.29.2/c83e9763d2e54cf3bc634700a848c33b/lib",
+                "/Users/mkepka/.xmake/packages/z/zlib/v1.3.1/533dfe9157584794af54e210f4bfe7ec/lib",
+                "/Users/mkepka/.xmake/packages/f/freetype/2.13.1/549581c779cc4b52b11373f9f4ea50a3/lib",
+                "/Users/mkepka/.xmake/packages/l/libogg/v1.3.4/587611c26c684cc180ec617ceb78a63f/lib",
+                "/Users/mkepka/.xmake/packages/l/libflac/1.4.3/fa17f5967c31471ea5a60854181bf703/lib",
+                "/Users/mkepka/.xmake/packages/l/libvorbis/1.3.7/70b53ee38c344c00a73917d3d7958c02/lib",
+                "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/lib"
+            },
+            DYLD_LIBRARY_PATH = {
+                "/Users/mkepka/.xmake/packages/s/sfml/2.6.0/ab598ffd5a37402ebafd12d5130b2a72/lib",
+                "/Users/mkepka/.xmake/packages/c/cmake/3.29.2/c83e9763d2e54cf3bc634700a848c33b/lib",
+                "/Users/mkepka/.xmake/packages/z/zlib/v1.3.1/533dfe9157584794af54e210f4bfe7ec/lib",
+                "/Users/mkepka/.xmake/packages/f/freetype/2.13.1/549581c779cc4b52b11373f9f4ea50a3/lib",
+                "/Users/mkepka/.xmake/packages/l/libogg/v1.3.4/587611c26c684cc180ec617ceb78a63f/lib",
+                "/Users/mkepka/.xmake/packages/l/libflac/1.4.3/fa17f5967c31471ea5a60854181bf703/lib",
+                "/Users/mkepka/.xmake/packages/l/libvorbis/1.3.7/70b53ee38c344c00a73917d3d7958c02/lib",
+                "/Users/mkepka/.xmake/packages/o/openal-soft/1.23.1/1db38dd509e845668f16768dd4f0c098/lib"
+            }
+        },
+        version = "2.6.0",
+        __components_deps = {
+            audio = "system",
+            network = "system",
+            graphics = {
+                "window",
+                "system"
+            },
+            window = "system"
+        }
+    }
+}
